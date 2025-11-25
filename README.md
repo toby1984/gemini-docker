@@ -22,6 +22,8 @@ Assuming you have Docker setup locally and Bash installed, just running
 
 should get you up & running.
 
+The "workspace" folder will be mounted at /workspace inside the container and gemini-cli will automatically get started inside that folder.
+
 
 
 
