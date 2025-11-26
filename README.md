@@ -16,6 +16,8 @@ as well as adjust the "user" line in the docker-compose.yml file.
 
 # Usage
 
+NOTE: I've had some weird glitches using the URL-based authentication methods so I guess it's best to setup a "Google AI Studio" account/project and export the API key as "GEMINI_API_KEY" environment (the docker-compose.yml file will automatically propagate that variable into the container)
+
 Assuming you have Docker setup locally and Bash installed, just running
 
      run.sh
@@ -23,7 +25,3 @@ Assuming you have Docker setup locally and Bash installed, just running
 should get you up & running.
 
 The "workspace" folder will be mounted at /workspace inside the container and gemini-cli will automatically get started inside that folder.
-
-
-
-

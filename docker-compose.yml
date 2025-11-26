@@ -7,5 +7,7 @@ services:
     container_name: gemini
     build:
       context: .
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
     volumes:
       - ./workspace:/workspace

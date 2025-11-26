@@ -20,4 +20,4 @@ fi
 # start container
 docker compose create
 # docker compose run --rm gemini
-docker compose run gemini
+docker compose run --rm gemini
